@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Machado</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<!--
+    https://www.google.com/search?q=ux+designs+personal+website&rlz=1C1CHZL_pt-BRBR735BR735&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjfm-b7mZnrAhU-J7kGHYUgAAAQ_AUoAXoECA0QAw&biw=1366&bih=695#imgrc=OIPTilQhBIW6rM
+    https://dribbble.com/shots/5917357-Personal-Website-Design#shot-description
+    https://dribbble.com/shots/3102478-Personal-Portfolio-Web
+    https://galdeia.github.io/
+    https://watracz.com/
+    http://pesquisa.ufabc.edu.br/hal/projects.html
+    http://bamos.github.io/
+    https://bootsnipp.com/snippets/BD8bN
+-->
+<body>
+    <nav class="navbar navbar-dark bg-primary navbar-lg navbar-expand-lg ">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    <div class="container mt-5 mb-5">
+        <div class="row">                
+            <div class="col d-flex justify-content-center"><!---xs-5 col-sm-4 col-md-3 col-lg-2 offset-lg-1 d-flex justify-content-center-->
+                <img id="me" src="img/roxo.jpeg" alt="me" width="208px" height="306px">    
+            </div>
+            <div class="col-8"> <!--offset-md-1 col-sm-6 col-md-->
+                <h1>Pedro Machado Nery dos Santos</h1>
+                <p>Research Scientist</p>
+                <p>Student at Universidade Federal do ABC (SP, Brazil)</p>
+                <p>
+                    <a class="" href="https://orcid.org/0000-0002-4191-4066">
+                        <img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="31" height="31">
+                    </a> 
+                    <a class="btn btn-social-icon" href="https://scholar.google.com.br/citations?view_op=list_works&hl=pt-BR&user=oSzZ_7UAAAAJ">
+                        <img src="img/google.jpg" alt="google my citations" width="31" height="31">
+                    </a>
+                    <a class="btn btn-social-icon" href="http://lattes.cnpq.br/6424010257030208">
+                        <img src="img/icon_lattes.png" alt="link curriculo lattes" width="31" height="31">
+                    </a>
+                    <a class="btn btn-social-icon btn-lg" href="mailto:pedro6e@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                    <a class="btn btn-social-icon btn-lg" href="https://github.com/pedro6e"><i class="fa fa-github"></i></a>
+                    <a class="btn btn-social-icon btn-md btn-linkedin" href="https://www.linkedin.com/in/pedro-machado-nery-dos-santos-34444b1a4/"><i class="fa fa-linkedin"></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-primary">
+        <div class="container bg-light">
+            <div class="row">
+                <div class="col">
+                    <h2>Education</h2>
+                    <h3>Skills</h3>
+                    <h3>Competencies</h3>
+                    <h2>Experience</h2>
+                    <h2>Publications</h2>
+                    <h2>Awards and prizes</h2>
+                    <h2>Interests</h2>
+                    <!-- media querie-like things as in bamos-->
+                    
+                    <!--cards as in walt-->
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <h2>Personal Projects</h2>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card">
+                    <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt="" width="374px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Tutorials</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                    <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt="" width="374px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Apps</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                    <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt=""  width="374px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Study notes</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                    <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt=""  width="374px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Cache simulator</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                
+            
+        </div>
+    </div>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
