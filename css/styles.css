@@ -6,16 +6,20 @@
     height: 60px;
 }
 
-.container{
-    border-radius: 10px;
-}
-
 .container-fluid{
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
 #me{
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 0.25rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+#header{
+    font-size: 1.2em;
+}
+
+#header>div>div:nth-child(2){
+    text-align: justify;
 }

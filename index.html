@@ -20,7 +20,7 @@
     http://bamos.github.io/
     https://bootsnipp.com/snippets/BD8bN
 -->
-<body>
+<body class="bg-primary" >
     <nav class="navbar navbar-dark bg-primary navbar-lg navbar-expand-lg ">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,18 +56,26 @@
           </form>
         </div>
     </nav>
-    <div class="container mt-5 mb-5">
-        <div class="row">                
-            <div class="col d-flex justify-content-center"><!---xs-5 col-sm-4 col-md-3 col-lg-2 offset-lg-1 d-flex justify-content-center-->
+
+    <div class="container">
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem; padding-top: 15px;">
+            <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center"  style="padding-bottom: 15px;"> <!--class= xs-5 col-sm-4 col-md-3 col-lg-2 offset-lg-1 d-flex justify-content-center-->
                 <img id="me" src="img/roxo.jpeg" alt="me" width="208px" height="306px">    
             </div>
-            <div class="col-8"> <!--offset-md-1 col-sm-6 col-md-->
+            <div class="clearfix visible-xl"></div>
+            <div class="col-12 col-md-8 col-lg-9"> <!--offset-md-1 col-sm-6 col-md-->
                 <h1>Pedro Machado Nery dos Santos</h1>
-                <p>Research Scientist</p>
-                <p>Student at Universidade Federal do ABC (SP, Brazil)</p>
+                <p>Research Scientist and Student at Universidade Federal do ABC (SP, Brazil)</p>
+                <p>I'm interested in Signal Processing and Machine Learning in the contex of Neuroscience and Biomedical Engineering.
+                    I am currently working on a scientific initiation project constructing a GAN (Generative Adversarial Network) applied
+                    to functional Magnetic Resonance Imaging (fMRI) data regarding mental disorders and aiming a carachterization of the typical brain.
+
+                </p>
                 <p>
+                    <a class="btn btn-social-icon btn-md btn-linkedin" href="https://www.linkedin.com/in/pedro-machado-nery-dos-santos-34444b1a4/"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-lg" href="mailto:pedro6e@gmail.com"><i class="fa fa-envelope-o"></i></a>
                     <a class="" href="https://orcid.org/0000-0002-4191-4066">
-                        <img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="31" height="31">
+                        <img alt="ORCID logo" src="img/ORCID_iD.svg" width="31" height="31">
                     </a> 
                     <a class="btn btn-social-icon" href="https://scholar.google.com.br/citations?view_op=list_works&hl=pt-BR&user=oSzZ_7UAAAAJ">
                         <img src="img/google.jpg" alt="google my citations" width="31" height="31">
@@ -75,74 +83,236 @@
                     <a class="btn btn-social-icon" href="http://lattes.cnpq.br/6424010257030208">
                         <img src="img/icon_lattes.png" alt="link curriculo lattes" width="31" height="31">
                     </a>
-                    <a class="btn btn-social-icon btn-lg" href="mailto:pedro6e@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                    <a class="btn btn-social-icon btn-lg" href="https://github.com/pedro6e"><i class="fa fa-github"></i></a>
-                    <a class="btn btn-social-icon btn-md btn-linkedin" href="https://www.linkedin.com/in/pedro-machado-nery-dos-santos-34444b1a4/"><i class="fa fa-linkedin"></i></a>
+                    
+                    <a class="btn btn-social-icon btn-github" href="https://github.com/pedro6e"><i class="fa fa-github"></i></a>
                 </p>
             </div>
         </div>
-    </div>
-    <div class="container-fluid bg-primary">
-        <div class="container bg-light">
-            <div class="row">
-                <div class="col">
-                    <h2>Education</h2>
-                    <h3>Skills</h3>
-                    <h3>Competencies</h3>
-                    <h2>Experience</h2>
-                    <h2>Publications</h2>
-                    <h2>Awards and prizes</h2>
-                    <h2>Interests</h2>
-                    <!-- media querie-like things as in bamos-->
-                    
-                    <!--cards as in walt-->
-                </div>
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem;">
+            <div class="col">
+                <h2>Education</h2>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <td><img src="img/ufabc-logo.svg" alt="ufabc-logo" width="67"></td>
+                            <td>Graduation, Bachelor in Computer Science<br>
+                                Federal University of ABC<br>
+                                2017-
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/ufabc-logo.svg" alt="ufabc-logo" width="67"></td>
+                            <td>Graduation, Medical/Biomedical Engineering<br>
+                                Federal University of ABC<br>
+                                2017-
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/ufabc-logo.svg" alt="ufabc-logo" width="67"></td>
+                            <td>Graduation, Bachelor in Neuroscience<br>
+                                Federal University of ABC<br>
+                                2017-
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/ufabc-logo.svg" alt="ufabc-logo" width="67"></td>
+                            <td>Graduation, Bachelor in Science and Technology<br>
+                                Federal University of ABC<br>
+                                2017-2020
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>High School<br>
+                                Colégio Singular-Anglo Santo André<br>
+                                2014-2016
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <div class="container mt-3">
-            <h2>Personal Projects</h2>
-            <div class="row row-cols-1 row-cols-md-2">
-                <div class="col mb-4">
-                    <div class="card">
-                    <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt="" width="374px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Tutorials</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col mb-4">
-                    <div class="card">
-                    <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt="" width="374px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Apps</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col mb-4">
-                    <div class="card">
-                    <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt=""  width="374px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Study notes</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col mb-4">
-                    <div class="card">
-                    <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt=""  width="374px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Cache simulator</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-                
-            
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem;">
+            <div class="col">
+                <h3>Skills</h3>
+            </div>
         </div>
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem;">
+            <div class="col">
+                <h3>Competencies</h3>
+            </div>
+        </div>
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem;">
+            <div class="col">
+                <h2>Experience</h2>
+                <table class="table table-hover">
+                    <tr>
+                        <td>2020</td>
+                        <td>
+                            <strong>Geração, Discriminação e Metrificação de Padrões de Conectividade Funcional Cerebral</strong><br>
+                            
+                            <p class="collapse" id="ICACdesc">
+                                Grande parte dos distúrbios mentais podem ser contextualizados como um estabelecimento impróprio de conexões no cérebro humano num cenário de neurodesenvolvimento atípico.Há forte interesse na caracterização de tal atipicidade, bem como em biomarcadores e métricas capazes de avaliar o risco ou progressão de doenças relacionadas.A análise de dados de ressonância magnética funcional (fMRI) é particularmente interessante para este propósito pela possibilidade de avaliação in vivo de pacientes, permitindo acompanhar a evolução de quadros, delinear propostas de intervenção e delimitar fatores de risco para os mesmos.Este projeto busca utilizar matrizes de conectividade funcional resultantes de uma análise por áreas de interesse em exames de fMRI para modelar o padrão de conectividade de um cérebro típico e a partir daí embasar a proposição de uma métrica de tipicidade funcional.Para tal, é proposto o uso do modelo GAN (Generative Adversarial Network), capaz de reproduzir (parcela geradora) e reconhecer (parcela discriminadora) o padrão de tipicidade presente nos dados através de um processo de aprendizado de máquina adversário. Testes utilizando dados de indivíduos típicos e atípicos serão utilizados para análise de performance. A análise do modelo auxiliará a proposição de uma métrica de tipicidade posteriormente confrontada a indicadores cognitivos dos pacientes, tais como o DAWBA (Development and Well-Being Assessment) e o CBCL (Child Behavior Checklist), num processo de validação e análise estatística.Os algoritmos LIME e SHAP serão utilizados de maneira a fornecer mais informações de quais características têm maior para relevância para predições do modelo.Tanto o modelo treinado quanto a métrica proposta devem ser capazes de diferenciar padrões de conectividade funcional de forma quantitativa e da parcela geradora do modelo deve ser possível obter exemplos fidedignos de um padrão típico.</p>
+                        </td>
+                        <td><a class="btn btn-primary" data-toggle="collapse" role="button" href="#ICACdesc" aria-expanded="false" aria-controls="ICACdesc">
+                            Mostrar detalhes
+                        </a>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>
+                            <strong>Validação de Sistema de Avaliação de Hemodinâmica Encefálica em sujeitos controle</strong><br>
+
+                            <p class="collapse" id="ICAC2desc">
+                                O projeto propõe a validação de uma plataforma voltada para a avaliação da hemodinâmica encefálica, mais especificamente no fenômeno de autorregulação cerebral. Este mecanismo é responsável por manter a velocidade de fluxo sanguíneo cerebral (vFSC) constante apesar de variações de pressão arterial (PA). É sabido que a autorregulação é prejudicada numa série de doenças neurológicas de maneira que é importante estabelecer métodos de avaliar a hemodinâmica encefálica para prover tratamento adequado, minimizando possíveis danos cerebrais secundários. A plataforma abrange três métodos principais: Análise da Função de Transferência (TFA), Índice de Autorregulação (ARI) e ARI-ARMA (Auto Regressive Moving Average), além de ferramentas de visualização e remoção de artefato, calibração, detrending, detecção de picos, filtragem, janelamento, interpolação, entre outros. Os métodos e o software desenvolvido serão validados em sujeitos controle e disponibilizados na forma de código aberto para o uso de clínicos, podendo ser também utilizados para comparações entre métodos distintos, estudos com sinais gerados, estabelecimento de padrões-ouro, estudos de variação de parâmetros e a inclusão de novos métodos. O estudo desenvolvido se insere no contexto de um projeto maior multidisciplinar, de caráter colaborativo entre centros.</p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" data-toggle="collapse" role="button" href="#ICAC2desc" aria-expanded="false" aria-controls="ICAC2desc">
+                                Mostrar detalhes
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>
+                            <strong>Sistema de Avaliação em Circulação Encefálica</strong><br>
+
+                            <p class="collapse" id="ICACdesc">
+                                O principal objetivo do projeto foi desenvolver uma plataforma para avaliar a hemodinâmica encefálica, mais especificamente no mecanismo da autorregulação cerebral, implementando métodos como a Análise de Função de Transferência (TFA) e Índice de Autorregulação (ARI). Os métodos serão validados em sujeitos saudáveis e pacientes que sofreram acidente vascular cerebral (AVC).</p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" data-toggle="collapse" role="button" href="#ICACdesc" aria-expanded="false" aria-controls="ICACdesc">
+                                Mostrar detalhes
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>
+                            <strong>Predição do tempo de deslocamento de ônibus em São Paulo</strong><br>
+                            <p class="collapse" id="PDPDdesc">
+                            A mobilidade urbana é um dos problemas centrais a serem abordados para a consolidação de Cidades
+                                Inteligentes. Embora existam formas de transporte mais eficientes, a maior parte dos deslocamentos
+                                é realizado por ônibus urbanos. A análise de dados de GPS relativos a tais deslocamentos fornece 
+                                estatísticas a respeito das viagens realizadas e permite sua caracterização a partir de distribuições 
+                                de probabilidade, tornando possível identificar aspectos a serem melhorados. Fatores como a variabilidade
+                                dos tempos de viagem podem indicar a qualidade do serviço e serem relacionados com elementos constituintes
+                                do serviço fornecido. Neste trabalho avaliamos a distribuição dos tempos de viagens de 20 linhas de 
+                                ônibus de São Paulo. Utilizamos dados históricos da SPTrans relativos à linhas, pontos e trajetos de diferentes 
+                                ônibus da cidade de São Paulo numa modelagem que os agrupou em viagens. Após a limpeza dos dados, separamos os
+                                    dados em diferentes categorias referentes, por exemplo, a dias de semana, feriados ou fins de semana. 
+                                    Analisamos a distribuição dos tempos de viagem utilizando as distribuições de probabilidade normal e lognormal.
+                                    A distribuição que melhor caracterizou os tempos de viagem na maior parte dos casos foi a lognormal, indicando
+                                    que há uma parcela de ônibus demorando muito mais do que a média. Finalmente, analisamos como cada um dos fatores
+                                    constituintes do serviço (tamanho das linhas, número de paradas, tempo médio de viagem, velocidade média) 
+                                    se relacionavam entre si e afetavam a qualidade do serviço</p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" data-toggle="collapse" role="button" href="#PDPDdesc" aria-expanded="false" aria-controls="PDPDdesc">
+                                Mostrar detalhes
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem;">
+            <div class="col">
+                <h2>Publications</h2>
+                <table class="table table-hover">
+                    <tr>
+                        <td><a href="">fotoo</a></td>
+                        <td>SALINET, J. L. ; MOURA, F. S. ; SANTOS, P. M. N. ; BOR-SENG-SHU, E. ; SALINET, A. S. M. . 
+                            Plataforma de Avaliação de Autorregulação Cerebral. In: XII SIMPÓSIO DE ENGENHARIA BIOMÉDICA - IX 
+                            SIMPÓSIO DE INSTRUMENTAÇÃO E IMAGENS MÉDICAS, 2019, Uberlândia, MG, Brasil. 
+                            ANAIS DO XII SIMPÓSIO DE ENGENHARIA BIOMÉDICA - IX SIMPÓSIO DE INSTRUMENTAÇÃO E IMAGENS MÉDICAS, 2019.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="">fotoo</a></td>
+                        <td>SANTOS, P. M. N.; SALINET, J. L. ; MOURA, F. S. ; SALINET, A. S. M. . Sistema de Avaliação em
+                                Circulação Encefálica. In: Anais da XXVII Jornadas de Jovens Pesquisadores da Associação de
+                                Universidades Grupo Montevideo (AUGM), 2020, São Carlos. XXVII Jornadas de Jovens Pesquisadores - A
+                                ciência e a tecnologia na produção de inovação e transformação social, 2019.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="">fotoo</a></td>
+                        <td>
+                            SANTOS, P. M. N.; CAMARGO, R. Y. . Predição do tempo de deslocamento dos ônibus em São Paulo. 
+                            REVISTA BRASILEIRA DE INICIAÇÃO CIENTÍFICA, v. 6, p. 159, 2019.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem;">
+            <div class="col">
+                <h2>Awards and prizes</h2>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <td>2018</td>
+                            <td>Honorable Mention - VIII UFABC's Scientific Initiation Symposium, Federal University of ABC.</td>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>Medal in the Brazilian Physics Olympiad - Brazilian Physics Society (SBF)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row mb-3 bg-light" style="border-radius: 0.25rem;">
+            <div class="col">
+                <h2>Interests</h2>
+                <!-- media querie-like things as in bamos-->
+                
+                <!--cards as in walt-->
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3 bg-light" style="border-radius: 0.25rem;">
+        <h2>Personal Projects</h2>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+                <div class="card">
+                <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt="" width="374px" height="180px">
+                <div class="card-body">
+                    <h5 class="card-title">Tutorials</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt="" width="374px" height="180px">
+                <div class="card-body">
+                    <h5 class="card-title">Apps</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt=""  width="374px" height="180px">
+                <div class="card-body">
+                    <h5 class="card-title">Study notes</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                <img src="https://via.placeholder.com/374x180.png" class="card-img-top" alt=""  width="374px" height="180px">
+                <div class="card-body">
+                    <h5 class="card-title">Cache simulator</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                </div>
+            </div>
+            </div>
     </div>
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
