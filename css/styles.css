@@ -13,13 +13,30 @@
 
 #me{
     border-radius: 0.25rem;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.507);
 }
 
 #header{
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 #header>div>div:nth-child(2){
     text-align: justify;
+}
+
+
+.float{
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:27px;
+	right:27px;
+	/*background-color:#0C9;*/
+	color:#FFF;
+	border-radius:34px;
+	text-align:center;
+}
+
+.my-float{
+	margin-top:12px;
 }
