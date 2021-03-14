@@ -40,3 +40,7 @@
 .my-float{
 	margin-top:12px;
 }
+
+h1, h2, h3{
+	margin-top: .3rem;
+}
