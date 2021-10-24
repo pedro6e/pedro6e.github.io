@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Machado</title>
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg"/>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/academicons.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<!--
+    https://www.google.com/search?q=ux+designs+personal+website&rlz=1C1CHZL_pt-BRBR735BR735&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjfm-b7mZnrAhU-J7kGHYUgAAAQ_AUoAXoECA0QAw&biw=1366&bih=695#imgrc=OIPTilQhBIW6rM
+    https://dribbble.com/shots/5917357-Personal-Website-Design#shot-description
+    https://dribbble.com/shots/3102478-Personal-Portfolio-Web
+    https://galdeia.github.io/
+    https://watracz.com/
+    http://pesquisa.ufabc.edu.br/hal/projects.html
+    http://bamos.github.io/
+    https://bootsnipp.com/snippets/BD8bN
+
+    
+-->
+<body class="" style="background-color: #1834c0;">
+    <nav class="navbar navbar-dark navbar-lg navbar-expand-lg" style="background-color: #1834c0;" id="top">
+        <!--a class="navbar-brand" href="#">Navbar</a-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Educ&Skills">Formación & Habilidades
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#conc_fields">Campos de Concentración</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Experience">Experiencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Publications">Publicaciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Awards">Premios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Interests">Interesses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#PersonalProjects">Proyectos Personales</a>
+            </li>
+        
+            <!--li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li-->
+            <!--li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li-->
+          </ul>
+          <a class="nav-link" href="index.html">EN                     <img src="img/icon_USA.png"    alt="link to page in English"        width="31" height="31"></a>
+          <a class="nav-link" href="indexBR.html">PT                   <img src="img/icon_brazil.png" alt="link para pagina em Português"  width="31" height="31"></a>
+          <a class="nav-link active" href="#" style="color:white">ES <img src="img/icon_esp.png"    alt="link para la pagina en Español" width="31" height="31"></a>
+          <!--a class="btn btn-social-icon" href="http://lattes.cnpq.br/6424010257030208"  target="_blank" data-toggle="tooltip" data-placement="bottom" title="Portuguese">
+            <img src="img/icon_brazil.png" alt="link curriculo lattes" width="31" height="31">
+          </a-->
+          <!--form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form-->
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem; padding-top: 15px;">
+            <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3 d-flex justify-content-center" style="padding-bottom: 15px;">
+                <img id="me" src="img/roxo.jpeg" alt="me" width="208px" height="306px">    
+            </div>
+            <div class="clearfix visible-xl"></div>
+            <div class="col-12 col-md-8 col-lg-9"> 
+                <h1>Pedro Machado Nery dos Santos</h1>
+                <p style="font-size: large;" class="text-primary">Cientista y Estudiante en la Universidade Federal do ABC (SP, Brasil)</p>
+                <p>
+                    Estudiante de Grado en Universidade Federal do ABC, en São Paulo, Brasil. Estoy interesado en Procesamiento de señales e Aprendizaje de Máquinas en el contexto de Neurociencia e Ingeniería Biomédica.
+                    Actualmente estoy trabajando en un proyecto de iniciación científica construyendo una rede neural GAN (Generative Adversarial Network) aplicada
+                    a datos de Ressonância Magnética Funcional (fMRI) de transtornos mentales y buscando una caracterización del cerebro neurotípico por una perspectiva conexionista.
+
+                </p>
+                <p>
+                    <a class="btn btn-social-icon btn-md btn-linkedin" href="https://www.linkedin.com/in/pedro6e/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Linkedin">
+                        <i class="fa fa-fw fa-linkedin"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-lg" href="mailto:pedro6e@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Email">
+                        <i class="fa fa-fw fa-envelope-o"></i>
+                    </a>
+                    <a class="btn btn-social-icon" href="https://orcid.org/0000-0002-4191-4066" target="_blank" data-toggle="tooltip" data-placement="bottom" title="ORCID">
+                        <img alt="ORCID logo" src="img/ORCID_iD.svg" width="31" height="31">
+                    </a> 
+                    <a class="btn btn-social-icon" href="https://scholar.google.com.br/citations?view_op=list_works&hl=pt-BR&user=oSzZ_7UAAAAJ" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GoogleMyCitations">
+                        <img src="img/google-svgrepo-com.svg" alt="google my citations" width="31" height="31">
+                    </a>
+                    <a class="btn btn-social-icon" href="http://lattes.cnpq.br/6424010257030208"  target="_blank" data-toggle="tooltip" data-placement="bottom" title="Curriculum Lattes">
+                        <img src="img/icon_lattes.png" alt="link curriculo lattes" width="31" height="31">
+                    </a>
+                    <a class="btn btn-social-icon btn-github" href="https://github.com/pedro6e"  target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/pedro6e" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                        <!--https://scholar.google.com.br/citations?view_op=list_works&hl=pt-BR&user=oSzZ_7UAAAAJ-->
+                        <!--img class="btn btn-social-icon" src="img/google_scholar.png" width="31" height="31" alt="google_scholar"-->
+
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="row mb-3" id="Educ&Skills">
+            <div class="col-12 col-md-7 col-lg-6 bg-light" style="border-radius: 0.25rem;">
+                <h2>Formación</h2>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <td><img src="img/ufabc-logo.svg" alt="ufabc-logo" width="67"></td>
+                            <td>Grado, Bacharelado en Ciência de la Computación<br>
+                                Universidade Federal do ABC<br>
+                                2017-
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/ufabc-logo.svg" alt="ufabc-logo" width="67"></td>
+                            <td>Grado, Ingeniería Biomédica<br>
+                                Universidade Federal do ABC<br>
+                                2017-
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/ufabc-logo.svg" alt="ufabc-logo" width="67"></td>
+                            <td>Grado, Bacharelado en Neurociencia<br>
+                                Universidade Federal do ABC<br>
+                                2017-
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/ufabc-logo.svg" alt="ufabc-logo" width="67"></td>
+                            <td>Grado, Bacharelado en Ciencia y Tecnología<br>
+                                Universidade Federal do ABC<br>
+                                2017-2020
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 0cm;"><img src="img/sing.png" alt="" width="90"></td>
+                            <td>Escuela Secundaria<br>
+                                Colégio Singular-Anglo Santo André<br>
+                                2014-2016
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12 col-md ml-md-3">
+                <div class="row mb-3 mt-3 mt-md-0">
+                    <div class="col bg-light" style="border-radius: 0.25rem;">
+                        <h3>Habilidades</h3>
+                        <table class="table table-hover table-sm">
+                            <tbody>
+                                <tr><td><strong>Python</strong></td> <td>Numpy, Scipy, Matplotlib, Tensorflow, Keras</td></tr>
+                                <tr><td><strong>HTML/CSS/JS</strong></td><td>Bootstrap, JQuery, React</td></tr>
+                                <tr><td><strong>Otras Linguagens</strong></td><td>Java, MATLAB, C, R, Haskell</td></tr>
+                                <tr><td><strong>Sistemas</strong></td><td>Windows, Linux</td></tr>
+                                <tr><td><strong>Ferramientas</strong></td><td>Git, SQL, MongoDB, Ajax</td></tr>
+                                <tr><td><strong>Otros</strong></td><td>Divirtiéndose con Arduino!</td></tr>
+                                <tr><td><strong>Idiomas</strong></td><td>Portugués, Inglés, Español</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row" id="conc_fields">
+                    <div class="col bg-light" style="border-radius: 0.25rem;">
+                        <h3>Campos de Concentración</h3>
+                        <table class="table table-hover table-sm">
+                            <tbody>
+                                <tr><td>Modelado y Análisis de Datos</td></tr>
+                                <tr><td>Procesamiento de (Bio)Señales</td></tr>
+                                <tr><td>Aprendizaje de Máquinas</td></tr>
+                                <tr><td>Neurociencia</td></tr>
+                                <tr><td>Neuroimagen y Neurodesarollo</td></tr>
+                                <tr><td>Muy despuesto en aprender!</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem;" id="Experience">
+            <div class="col">
+                <h2>Experiencia</h2>
+                <table class="table table-hover">
+                    <!--
+                    <tr>
+                        <td>2021</td>
+                        <td></td>
+                        <td>
+                            <strong>Onanananananannana</strong><br>
+                            Graduation project (Biomedical Engineering)
+                            <p class="collapse" id="aDBSUnsuper">
+                                O projeto propõe ...</p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" data-toggle="collapse" role="button" href="#aDBSUnsuper" aria-expanded="false" aria-controls="aDBSUnsuper">
+                                Show details
+                            </a>
+                        </td>
+                    </tr>
+                    -->
+                    <tr>
+                        <td>2021</td>
+                        <td></td>
+                        <td>
+                            <strong>Aprendizaje de Máquinas en Aplicaciones de BCI híbridas</strong><br>
+                            Proyecto de Grado (Ciência de la Computación)
+                            <p class="collapse" id="hBCIs">
+                                Interfaces Cérebro-Máquina (BCIs) são dispositivos que permitem a direta comunicação entre padrões neurais e mecanismos de ação, sendo aplicadas para efeitos de acessibilidade para pessoas com funções debilitadas/ausentes, ampliação da comunicação com computadores e para o controle de mecanismos externos como soletradores e exoesqueletos. Tipicamente esses dispositivos se baseiam na coleta de sinais de eletroencefalografia (EEG) em tempo real, mas recentemente o uso de outros sinais como eletromiografia (EMG) e eletroculografia (EOG) têm sido integrados a esses sistemas com objetivo de tornar sua funcionalidade mais consistente, constituindo as chamadas BCIs híbridas. A implementação de tais sistemas requer para além do processamento dos sinais, processos de extração de características e classificação de padrões a partir dos mesmos, se amparando em algoritmos como o Common Spatial Pattern (CSP) e Máquinas de Vetores de Suporte (SVMs), entre outros algoritmos de Aprendizaje de Máquinas. BCIs híbridas têm ainda como desafio integrar o processamento de sinais diferentes de forma simultânea ou sequencial, realizando processos de fusão ou implementando mecanismos de chaveamento. O presente projeto busca propor uma estratégia de implementação de BCI híbrida aplicada a um dos contextos clássicos de uso de BCI, através de técnicas de processamento digital de sinais e Aprendizaje de Máquinas.
+                            </p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" data-toggle="collapse" role="button" href="#hBCIs" aria-expanded="false" aria-controls="hBCIs">
+                                Detalles
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    
+
+                    <tr>
+                        <td>2020</td>
+                        <td style="padding-right: 0px; padding-left: 0px;">
+                            <img src="img/logo-fapesp.png" alt="" width="50px">
+                        </td>
+                        <td>
+                            <strong>Generacion, Discriminación y Metrificación de Patrones de Conectividad Funcional Cerebral</strong><br>
+                            Iniciación Científica
+                            <p class="collapse" id="ICGANfMRIdesc">
+                                Grande parte dos distúrbios mentais podem ser contextualizados como um estabelecimento impróprio de conexões no cérebro humano
+                                num cenário de neurodesenvolvimento atípico. Há forte interesse na caracterização de tal atipicidade, bem como em biomarcadores
+                                e métricas capazes de avaliar o risco ou progressão de doenças relacionadas.A análise de datos de ressonância magnética 
+                                funcional (fMRI) é particularmente interessante para este propósito pela possibilidade de avaliação in vivo de pacientes, 
+                                permitindo acompanhar a evolução de quadros, delinear propostas de intervenção e delimitar fatores de risco para os mesmos. Este
+                                projeto busca utilizar matrizes de conectividade funcional resultantes de uma análise por áreas de interesse em exames de fMRI 
+                                para modelar o padrão de conectividade de um cérebro típico e a partir daí embasar a proposição de uma métrica de tipicidade 
+                                funcional. Para tal, é proposto o uso do modelo GAN (Generative Adversarial Network), capaz de reproduzir (parcela geradora) e 
+                                reconhecer (parcela discriminadora) o padrão de tipicidade presente nos datos através de um processo de aprendizado de máquina 
+                                adversário. Testes utilizando datos de indivíduos típicos e atípicos serão utilizados para análise de performance. A análise do
+                                modelo auxiliará a proposição de uma métrica de tipicidade posteriormente confrontada a indicadores cognitivos dos pacientes, 
+                                tais como o DAWBA (Development and Well-Being Assessment) e o CBCL (Child Behavior Checklist), num processo de validação e 
+                                análise estatística. Os algoritmos LIME e SHAP serão utilizados de maneira a fornecer mais informações de quais características 
+                                têm maior para relevância para predições do modelo. Tanto o modelo treinado quanto a métrica proposta devem ser capazes de 
+                                diferenciar padrões de conectividade funcional de forma quantitativa e da parcela geradora do modelo deve ser possível obter 
+                                exemplos fidedignos de um padrão típico.
+                            </p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" data-toggle="collapse" role="button" href="#ICGANfMRIdesc" aria-expanded="false" aria-controls="ICGANfMRIdesc">
+                            Detalles
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td></td>
+                        <td>
+                            <strong>Validación de Sistema de Evaluación de la Hemodinámica Cerebral en Sujetos Control</strong><br>
+                            Iniciación Científica
+                            <p class="collapse" id="ICAC2desc">
+                                O projeto propõe a validação de uma plataforma voltada para a avaliação da hemodinâmica encefálica, mais especificamente no fenômeno de autorregulação cerebral. Este mecanismo é responsável por manter a velocidade de fluxo sanguíneo cerebral (vFSC) constante apesar de variações de pressão arterial (PA). É sabido que a autorregulação é prejudicada numa série de doenças neurológicas de maneira que é importante estabelecer métodos de avaliar a hemodinâmica encefálica para prover tratamento adequado, minimizando possíveis danos cerebrais secundários. A plataforma abrange três métodos principais: Análise da Função de Transferência (TFA), Índice de Autorregulação (ARI) e ARI-ARMA (Auto Regressive Moving Average), além de ferramentas de visualização e remoção de artefato, calibração, detrending, detecção de picos, filtragem, janelamento, interpolação, entre outros. Os métodos e o software desenvolvido serão validados em sujeitos controle e disponibilizados na forma de código aberto para o uso de clínicos, podendo ser também utilizados para comparações entre métodos distintos, estudos com sinais gerados, estabelecimento de padrões-ouro, estudos de variação de parâmetros e a inclusão de novos métodos. O estudo desenvolvido se insere no contexto de um projeto maior multidisciplinar, de caráter colaborativo entre centros.
+                            </p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" data-toggle="collapse" role="button" href="#ICAC2desc" aria-expanded="false" aria-controls="ICAC2desc">
+                                Detalles
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td style="padding-right: 0px; padding-left: 0px;">
+                            <img src="img/CNPq-logo-1.png" alt="" width="50px">
+                        </td>
+                        <td>
+                            <strong>Sistema de Avaliação em Circulação Encefálica</strong><br>
+                            Iniciación Científica
+                            <p class="collapse" id="ICACdesc">
+                                O principal objetivo do projeto foi desenvolver uma plataforma para avaliar a hemodinâmica encefálica, mais especificamente no mecanismo da autorregulação cerebral, implementando métodos como a Análise de Função de Transferência (TFA) e Índice de Autorregulação (ARI). Os métodos serão validados em sujeitos saudáveis e pacientes que sofreram acidente vascular cerebral (AVC).
+                            </p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" data-toggle="collapse" role="button" href="#ICACdesc" aria-expanded="false" aria-controls="ICACdesc">
+                                Detalles
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td style="padding-right: 0px; padding-left: 0px;">
+                            <img src="img/ufabc-logo.svg" alt="" width="45px">
+                        </td>
+                        <td>
+                            <strong>Predicción del Tiempo de Translado de los Autobús en São Paulo</strong><br>
+                            Iniciación Científica
+                            <p class="collapse" id="PDPDdesc">
+                                A mobilidade urbana é um dos problemas centrais a serem abordados para a consolidação de Cidades
+                                Inteligentes. Embora existam formas de transporte mais eficientes, a maior parte dos deslocamentos
+                                é realizado por ônibus urbanos. A análise de datos de GPS relativos a tais deslocamentos fornece 
+                                estatísticas a respeito das viagens realizadas e permite sua caracterização a partir de distribuições 
+                                de probabilidade, tornando possível identificar aspectos a serem melhorados. Fatores como a variabilidade
+                                dos tempos de viagem podem indicar a qualidade do serviço e serem relacionados com elementos constituintes
+                                do serviço fornecido. Neste trabalho avaliamos a distribuição dos tempos de viagens de 20 linhas de 
+                                ônibus de São Paulo. Utilizamos datos históricos da SPTrans relativos à linhas, pontos e trajetos de diferentes ônibus da cidade de São Paulo numa modelagem que os agrupou em viagens. Após a limpeza, separamos os datos em diferentes categorias referentes, por exemplo, a dias de semana, feriados ou fins de semana. Analisamos a distribuição dos tempos de viagem utilizando as distribuições de probabilidade normal e lognormal. A distribuição que melhor caracterizou os tempos de viagem na maior parte dos casos foi a lognormal, indicando que há uma parcela de ônibus demorando muito mais do que a média. Finalmente, analisamos como cada um dos fatores constituintes do serviço (tamanho das linhas, número de paradas, tempo médio de viagem, velocidade média) se relacionavam entre si e afetavam a qualidade do serviço
+                            </p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" data-toggle="collapse" role="button" href="#PDPDdesc" aria-expanded="false" aria-controls="PDPDdesc">
+                                Detalles
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem;" id="Publications">
+            <div class="col">
+                <h2>Publicaciones</h2>
+                    <p>
+                        <a role="button" class="btn btn-primary" href="https://scholar.google.com.br/citations?view_op=list_works&hl=pt-BR&user=oSzZ_7UAAAAJ" target="_blank">
+                            <i class="ai ai-google-scholar ai-1x"></i> Google Académico
+                        </a>
+                    </p>
+                    
+                <table class="table table-hover">
+
+                    <tr>
+                        <td>
+                            <a href="https://github.com/CAAosPlatform/CAAos" target="_blank">
+                                <img src="img/platform2.png" alt="" width="141px">
+                            </a>
+                        </td>
+                        <td>
+                            Salinet, J., de Moura, F. S., Romanelli, R.,<strong>dos Santos, P. M. N.</strong>, Zamai, M., Panerai, R. B., ... & Salinet, A. S. M. (2021). <strong>CAAos platform: an integrated platform for analysis of cerebral hemodynamics data </strong>. Physiological Measurement.
+                            <p>
+                                [<a href="#IOPabs" aria-expanded="false" data-toggle="collapse" role="button" aria-controls="IOPabs">Abstracto</a>]
+                                [<a href="https://iopscience.iop.org/article/10.1088/1361-6579/ac0c0b" target="_blank">Artículo IOP Science</a>]
+                                [<a href="https://github.com/CAAosPlatform/CAAos" target="_blank">Plataforma&nbsp;Proposta</a>]
+                            </p>
+                            <p class="collapse" id="IOPabs">
+                                <strong>Abstracto:</strong> Objective: The purpose of this article is to introduce the readers to the concept and structure of CAAos (Cerebral Autoregulation Assessment Open Source) platform, and provide evidence of its functionality. Approach: CAAos platform is a new open-source software research tool, developed in Python 3 language, that combines existing and novel methods for interactive visual inspection, batch processing and analysis of multichannel records. The platform is scalable, allowing for customization and inclusion of new tools. Main results: Currently CAAos platform is composed of two main modules, preprocessing (containing artefact removal, filtering and signal beat to beat extraction tools) and cerebral autoregulation (CA) analysis modules. Two methods for assessing CA have been implemented into CAAos platform: transfer function analysis (TFA) and autoregulation index (ARI). In order to provide validation of TFA and ARI estimates derived from CAAos platform, the results were compared with those derived from two other algorithms. Validation was performed using data from twenty-eight participants, corresponding to 13 acute ischemic stroke patients and 13 age- and sex-matched control subjects. Agreement between estimates was assessed by intraclass correlation coefficient and Bland-Altman analysis. No significant statistical difference between algorithms was found. Moreover, there was an excellent correspondence between the curves of all parameters analysed, with intraclass correlation coefficient ranging from 0.98 (95%CI 0.976-0.999) to 1.00 (95%CI 1 -1). The mean differences revealed a very small magnitude bias indicating an excellent agreement between the estimates. Significance: As open-source software, the source code for the software is freely available for non-commercial use, reducing barriers to performing CA analysis, allowing inspection of the inner-workings of the algorithms, and facilitating networked activities with common standards. CAAos platform is a tailored software solution for the scientific community in the cerebral hemodynamic field and contributes to increasing use and reproducibility of CA assessment.<br>
+                                <strong>Palabras-clave:</strong> Cerebral blood flow, cerebral autoregulation analysis, open-source platform, signal processing and modelling, clinical assessment. 
+                            </p>
+                        </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>
+                            <a href="https://github.com/CAAosPlatform/CAAos" target="_blank">
+                                <img src="img/CAAos_logo600x443.png" alt="" width="141px">
+                            </a>
+                        </td>
+                        <td>
+                            <strong>SANTOS, P. M. N.;</strong> SALINET, J. L. ; MOURA, F. S. ; SALINET, A. S. M. . <strong>Sistema de Avaliação em Circulação Encefálica.</strong> In: Anais da XXVII Jornadas de Jovens Pesquisadores da Associação de Universidades Grupo Montevideo (AUGM), 2020, São Carlos. XXVII Jornadas de Jovens Pesquisadores - A ciência e a tecnologia na produção de inovação e transformação social, 2019.
+                            <p>
+                                [<a href="#AUGMabs" aria-expanded="false" data-toggle="collapse" role="button" aria-controls="AUGMabs">Abstracto</a>]
+                                [<a href="https://jornadasaugm.faiufscar.com/anais#/trabalho/1901" target="_blank">PDF</a>]
+                                [<a href="https://github.com/CAAosPlatform/CAAos" target="_blank">Plataforma&nbsp;Propuesta</a>]
+                            </p>
+                            <p class="collapse" id="AUGMabs">
+                                <strong>Abstracto:</strong> O mecanismo de autorregulação cerebral (AC) tem papel crucial na homeostase encefálica, sendo responsável por manter a velocidade de fluxo sanguíneo encefálico (vFSE) constante apesar de variações de pressão arterial (PA). Uma perfusão encefálica própria é essencial dada à dependência crítica do cérebro humano por energia. Este estudo visa validar o método da análise de função de transferência (TFA) em sujeitos saudáveis para inserção na plataforma clínica open source em desenvolvimento para o cálculo da autorregulação cerebral. Sinais de PA e vFSE de 5 minutos obtidos de 12 sujeitos saudáveis foram utilizados para as análises em off-line. O cálculo da autorregulação cerebral consiste na análise batimento-a-batimento (sincronização dos sinais, detecção do onset da PA e vFSE por ciclo cardíaco, cálculo de valores médios de PA e vFSE por ciclo cardíaco e upsampling do sinal resultante com spline cúbico), seguido pela Análise de Função de Transferência (análise espectral via método Welch, cálculo do auto espectro e espectro cruzado, cálculo do sinal da função de transferência e seus valores de ganho, fase e coerência). Os resultados obtidos são comparados pelo algoritmo da TFA desenvolvido pela rede de pesquisa em AC (CARNet). Os resultados indicam que não houve diferença estatística o algoritmo proposto e do CARNet. A análise de reprodutibilidade apresenta excelente correspondência entre as curvas de todos os parâmetros analisados variando de 0.98 (IC 95% 0.976-0.999) a 1,00 (IC 95% 1 -1). Após a validação, o algoritmo TFA proposto em conjunto com técnicas de pré-processamento e ferramentas úteis para a análise são incluídas na plataforma clínica open source em desenvolvimento para o cálculo da autorregulação cerebral.<br>
+                                <strong>Palabras-clave:</strong> fluxo sanguíneo encefálico, processamento de sinais fisiológicos, autorregulação cerebral
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: middle;">
+                            <a href="https://zenodo.org/record/3459941#.XzsKPehKhQK" target="_blank">
+                                <img src="img/platform.png" alt="" width="141px">
+                            </a>
+                        </td>
+                        <td>SALINET, J. L. ; MOURA, F. S. ; <strong>SANTOS, P. M. N. </strong>; BOR-SENG-SHU, E. ; SALINET, A. S. M. . 
+                            <strong>Plataforma de Avaliação de Autorregulação Cerebral.</strong> In: XII SIMPÓSIO DE ENGENHARIA BIOMÉDICA - IX SIMPÓSIO DE INSTRUMENTAÇÃO E IMAGENS MÉDICAS, 2019, Uberlândia, MG, Brasil. 
+                            ANAIS DO XII SIMPÓSIO DE ENGENHARIA BIOMÉDICA - IX SIMPÓSIO DE INSTRUMENTAÇÃO E IMAGENS MÉDICAS, 2019.
+                            <p>
+                                [<a href="#SIIMabs" aria-controls="SIIMabs" data-toggle="collapse" aria-expanded="false" role="button">Abstracto</a>]
+                                [<a href="https://zenodo.org/record/3459941#.XzsKPehKhQK" target="_blank">PDF</a>]
+                                [<a href="https://github.com/CAAosPlatform/CAAos" target="_blank">Plataforma&nbsp;Propuesta</a>]
+                            </p>
+                            <p class="collapse" id="SIIMabs">
+                                <strong>Abstracto:</strong> Neste estudo foi realizada a validação preliminar, em sujeitos controle, de uma multiplataforma de avaliação de autorregulação cerebral (AC). Este mecanismo é essencial na manutenção do fluxo sanguíneo cerebral (FSC) adequado, do qual o cérebro é criticamente dependente devido a sua alta demanda energética. O mecanismo de AC permite manter o FSC constante mesmo sobre variações de pressão arterial sistêmica, sendo afetada em diversos quadros neurológicos que necessitam de avaliação. Métodos não invasivos como a Análise de Função de Transferência (AFT) e o Índice de Autorregulação (IAR) foram implementados numa nova plataforma open source voltada para a avaliação de AC. A plataforma representa uma inovação sobre versões anteriores de softwares com este propósito e tem sua funcionalidade demonstrada pelo estabelecimento de valores de média e variabilidade característicos dos parâmetros para sujeitos saudáveis nos índices do método AFT.
+                                <strong>Palabras-clave:</strong> fluxo sanguíneo cerebral, pressão arterial, processamento de sinais fisiológicos, modelamento, autorregulação cerebral.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://periodicos.itp.ifsp.edu.br/index.php/IC/article/view/1581" target="_blank">
+                                <img src="img/PDPD2.png" alt="PDPD" width="141px" height="152px">
+                            </a>
+                        </td>
+                        <td>
+                            <strong>SANTOS, P. M. N.</strong>; CAMARGO, R. Y. . <strong>Predicción del Tiempo de Translado de los Autobús en São Paulo</strong> REVISTA BRASILEIRA DE INICIAÇÃO CIENTÍFICA, v. 6, p. 159, 2019. 
+                            <p>
+                                [<a data-toggle="collapse" role="button" href="#PDPDabs" aria-expanded="false" aria-controls="PDPDabs">Abstracto</a>]
+                                [<a href="https://periodicos.itp.ifsp.edu.br/index.php/IC/article/view/1581" target="_blank">PDF</a>]
+                            </p>
+                            <p class="collapse" id="PDPDabs">
+                                <strong>Abstracto:</strong> En el contexto de Ciudades Inteligentes, se utilizaron dados históricos de SPTrans para modelar las
+                                distribuiciones de tiempos de viaje de 20 líneas de autobús de la ciudad de São Paulo como distribuiciones de
+                                probabilidad, analisando su variabilidad. La distribuición que mejor caracterizó los tiempos de viaje em la mayor
+                                parte de los casos fue la lognormal, indicando que hay una parcela de los autobús demorando mucho más que lá
+                                media. Se analizó cómo cada fator constituyente (tamanho de las líneas, número de paradas, tempo médio de viaje,
+                                velocidad média) se relacionaban entre si e afectavan la calidad del servicio<br>
+                                <strong>Palabras-clave:</strong> Mobilidad Urbana. Ciudades Inteligentes.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row bg-light mb-3" style="border-radius: 0.25rem;" id="Awards">
+            <div class="col">
+                <h2>Premios</h2>
+                <table class="table table-hover table-sm">
+                    <tbody>
+                        <tr>
+                            <td>2018</td>
+                            <td>Mención Honorifica - VIII Simpósio de Iniciación Científica de UFABC, Universidade Federal do ABC.</td>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>Medalla en la Olimpíada Brasileña de Física - Sociedad Brasileña de Física (SBF)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row mb-3 bg-light" style="border-radius: 0.25rem;" id="Interests">
+            <div class="col">
+                <h2>Interesses</h2>
+                <!-- media querie-like things as in ba*os-->
+                
+                <!--cards as in walt-->
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                        <div class="card">
+                        <img src="img/EEG.jpg" class="card-img-top" alt="" width="288px" height="180px">
+                        <div class="card-body">
+                            <h5 class="card-title">Procesamiento de Señales</h5>
+                            <p class="card-text">Este sitio aún está en construcción. Quedate atento para nuevos detalles!</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                        <img src="img/feature_map.png" class="card-img-top" alt="" width="288px" height="180px">
+                        <div class="card-body">
+                            <h5 class="card-title">Aprendizaje de Máquinas</h5>
+                            <p class="card-text">Este sitio aún está en construcción. Quedate atento para nuevos detalles!</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                        <img src="img/MRI.jpg" class="card-img-top" alt=""  width="288px" height="180px">
+                        <div class="card-body">
+                            <h5 class="card-title">Neuro(imagen/desarollo)</h5>
+                            <p class="card-text">Este sitio aún está en construcción. Quedate atento para nuevos detalles!</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5 bg-light" style="border-radius: 0.25rem;" id="PersonalProjects">
+            <div class="col">
+                <h2>Proyectos Personales</h2>
+                <!-- media querie-like things as in bamos-->
+                
+                <!--cards as in walt-->
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                        <div class="card">
+                        <img src="img/tutorial.jpg" class="card-img-top" alt="" width="288px" height="180px">
+                        <div class="card-body">
+                            <h5 class="card-title">Tutoriales</h5>
+                            <p class="card-text">Tutoriales básicos para principiantes en programación y análisis de datos.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                        <img src="img/toolbox.png" class="card-img-top" alt="" width="288px" height="180px">
+                        <div class="card-body">
+                            <h5 class="card-title">Apps & Utilidades</h5>
+                            <p class="card-text">Este sitio aún está en construcción. Quedate atento para nuevos detalles!</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                        <img src="img/brain2.jpg" class="card-img-top" alt=""  width="288px" height="180px">
+                        <div class="card-body">
+                            <h5 class="card-title">Notas de Estudio</h5>
+                            <p class="card-text">Este sitio aún está en construcción. Quedate atento para nuevos detalles!</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="float bg-primary">
+            <i class="fa fa-arrow-up my-float"></i>
+        </a>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
